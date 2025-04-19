@@ -1,0 +1,77 @@
+.clients-title {
+  margin-bottom: 8px;
+
+  font-size: 34px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.clients-subtitle {
+  margin-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.clients-item {
+  width: 100%;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 27px 25px;
+}
+
+.clients-text {
+  margin-bottom: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.clients-user-content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.clients-card-title {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.clients-card-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+@media screen and (min-width: 1150px) {
+  .clients-title {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .clients-subtitle {
+    max-width: 537px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .clients-list {
+    gap: 64px;
+  }
+
+  .clients-item {
+    width: calc((100% - 128px) / 3);
+  }
+}
